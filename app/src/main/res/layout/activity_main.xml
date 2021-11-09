@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/north_with_house"
+    tools:context="MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/panel_BTN_right"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/right_arrow_red" />
+
+        <ImageView
+            android:id="@+id/panel_BTN_left"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/left_arrows_red" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/panel_LL_lanes"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_alignTop="@id/upperLayout"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/panel_LL_lane1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/panel_IMG_l1fire1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l1fire2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l1fire3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l1fire4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l1fire5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l1snow"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/snowman_2"
+                android:visibility="invisible"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/panel_LL_lane2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+
+            >
+
+            <ImageView
+                android:id="@+id/panel_IMG_l2fire1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l2fire2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l2fire3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l2fire4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l2fire5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l2snow"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/snowman_2"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/panel_LL_lane3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/panel_IMG_l3fire1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l3fire2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l3fire3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l3fire4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l3fire5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/flame"
+                android:visibility="invisible"
+
+                />
+
+            <ImageView
+                android:id="@+id/panel_IMG_l3snow"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/snowman_2"
+                android:visibility="invisible"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/upperLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        >
+
+
+        <ImageView
+            android:id="@+id/panel_IMG_sf1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/snowglobe" />
+
+        <ImageView
+            android:id="@+id/panel_IMG_sf2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignStart="@id/panel_IMG_sf1"
+            android:layout_alignTop="@id/panel_IMG_sf1"
+            android:layout_marginStart="90dp"
+            android:layout_toEndOf="@id/panel_IMG_sf1"
+
+            android:src="@drawable/snowglobe" />
+
+        <ImageView
+            android:id="@+id/panel_IMG_sf3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignTop="@id/panel_IMG_sf1"
+
+            android:layout_toEndOf="@id/panel_IMG_sf2"
+            android:src="@drawable/snowglobe" />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/panel_BTN_tryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRY AGAIN"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>
