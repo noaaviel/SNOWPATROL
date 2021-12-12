@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/north_with_house"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/menu_IMG_GLOBE1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/menu_TXT_snowpatrol"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/christmas_tree" />
+
+    <ImageView
+        android:id="@+id/menu_IMG_GLOBE2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/menu_TXT_snowpatrol"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/menu_IMG_GLOBE1"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/bauble" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/menu_TXT_snowpatrol"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_toLeftOf="@id/menu_IMG_GLOBE1"
+        android:src="@drawable/bauble" />
+
+    <ImageView
+        android:id="@+id/menu_IMG_snowman"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/snowman_2" />
+
+    <TextView
+        android:id="@+id/menu_TXT_snowpatrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/menu_IMG_snowman"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="cursive"
+        android:text="SNOW PATROL"
+        android:textColor="#DA0303"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/menu_BTN_play_buttons"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_IMG_snowman"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:fontFamily="cursive"
+        android:text="buttons mode"
+        android:textColor="#DA0303"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/menu_BTN_play_sens"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_BTN_play_buttons"
+        android:layout_alignStart="@id/menu_BTN_play_buttons"
+        android:layout_alignEnd="@id/menu_BTN_play_buttons"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="sensor mode"
+        android:textColor="#DA0303"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/menu_BTN_top"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_BTN_play_sens"
+        android:layout_alignStart="@id/menu_BTN_play_buttons"
+        android:layout_alignEnd="@id/menu_BTN_play_buttons"
+        android:layout_centerInParent="true"
+        android:fontFamily="cursive"
+        android:text="Top Ten"
+        android:textColor="#DA0303"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/menu_BTN_top"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/gift" />
+
+
+</RelativeLayout>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:background="#FF0000" >
+
+    <LinearLayout
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Name:"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="cursive"
+            android:textColor="#DA0303"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Score:"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:textColor="#DA0303"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/data">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/list_player_row0"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="@drawable/north_with_house"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/list_player_player0"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_weight="2"
+                    android:maxLines="1"
+                    android:gravity="center_vertical"
+                    android:fontFamily="cursive"
+                    android:textColor="#DA0303"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/list_score_score0"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/list_player_row1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/north_with_house"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/list_player_player1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginStart="25dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/list_score_score1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:maxLines="1"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/list_player_row2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/north_with_house"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/list_player_player2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginStart="25dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/list_score_score2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:maxLines="1"
+                    android:fontFamily="cursive"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/list_player_row3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/north_with_house"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/list_player_player3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginStart="25dp"
+                    android:gravity="center_vertical"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:maxLines="1"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/list_score_score3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:maxLines="1"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/list_player_row4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/north_with_house"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/list_player_player4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginStart="25dp"
+                    android:gravity="center_vertical"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:maxLines="1"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/list_score_score4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:maxLines="1"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/list_player_row5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/north_with_house"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/list_player_player5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginStart="25dp"
+                    android:gravity="center_vertical"
+                    android:textSize="30sp"
+                    android:maxLines="1"
+                    android:fontFamily="cursive"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/list_score_score5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/list_player_row6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/north_with_house"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/list_player_player6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_weight="2"
+                    android:layout_marginStart="25dp"
+                    android:gravity="center_vertical"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/list_score_score6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/list_player_row7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/north_with_house"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/list_player_player7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginStart="25dp"
+                    android:gravity="center_vertical"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:maxLines="1"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/list_score_score7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:maxLines="1"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/list_player_row8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/north_with_house"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/list_player_player8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginStart="25dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/list_score_score8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:maxLines="1"
+                    android:fontFamily="cursive"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/list_player_row9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/north_with_house"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/list_player_player9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginStart="25dp"
+                    android:gravity="center_vertical"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:maxLines="1"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/list_score_score9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:textColor="#DA0303"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
